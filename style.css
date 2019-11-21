@@ -1,0 +1,104 @@
+body {
+  background: black;
+  margin: 0 5vmin 0 5vmin;
+}
+
+h1, h2, h3, h4 {
+  margin: 0;
+  padding: 0;
+}
+
+.section1 {
+  height: 100vh;
+}
+
+.topBar {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 5vh;
+}
+
+a {
+  text-decoration: none;
+  font-size: 1.25vw;
+  font-family: 'Times New Roman';
+  color: white;
+}
+
+.logo1 {
+  /* background-color: red; */
+
+  background-image: url("EPA logo3.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+
+  height: 8vw;
+  width: 15vw;
+}
+
+.logo2 {
+  /* background-color: red; */
+
+  background-image: url("CDC_Inline.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+
+  margin-right: 5vw;
+
+  height: 8vw;
+  width: 10vw;
+}
+
+.logo3 {
+  /* background-color: red; */
+
+  background-image: url("NIH.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+
+  height: 8vw;
+  width: 13vw;
+}
+
+
+#heroText {
+
+  /* load background first or it doesn't work */
+  background: url("blood1.gif");
+
+  /* use webkit to do basically clipping mask function in PS */
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+
+  /* make background fixed in position */
+  background-attachment: fixed;
+
+  background-size: cover;
+  background-position: center;
+
+  font-size: 20vw;
+  font-family: "Arial";
+
+  text-align: center;
+  margin-top: 5vh;
+
+  /* fall-back color as recommended */
+  color: white;
+
+  /* Above has referenced https://css-tricks.com/how-to-do-knockout-text/ */
+}
+
+h3 {
+  font-size: 2.5vw;
+  font-family: 'Baskervville', serif;
+  color: #d4d5c9;
+  text-align: center;
+
+}
+
+.section2 {
+  height: 100vh;
+}
