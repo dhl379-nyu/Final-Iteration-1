@@ -95,6 +95,29 @@ h3 {
 }
 
 .section2 {
+  height: 400vh;
+  /* background-color: #d7d7c4; */
+  background-color: white;
+}
+
+h2 {
+  font-size: 17vw;
+  font-family: "Arial";
+  text-align: center;
+}
+
+.box {
+  height: 65vh;
+}
+
+.mainText {
+  position: sticky;
+  top: 50%;
+  transform: translate(0, -50%);
+  z-index: 1;
+}
+
+.section3 {
   display: flex;
   background-color: white;
   height: 100vh;
