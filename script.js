@@ -10,7 +10,7 @@ window.addEventListener('scroll', function() {
   }
 
   if (current_scroll > 3400) {
-    document.getElementById('text').innerHTML = "ANUALLY";
+    document.getElementById('text').innerHTML = "ANNUALLY";
   }
 
   console.log(current_scroll);
