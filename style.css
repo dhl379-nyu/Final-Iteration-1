@@ -230,7 +230,7 @@ h2 {
 
 .imageBox5 {
   display: flex;
-  background-image: url("5.jpg");
+  background-image: url("5.JPG");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -603,7 +603,7 @@ h2 {
     color: black;
     font-size: 2vmin;
   }
-  
+
   .ftWrapper {
     margin: 0 5vmin 0 5vmin;
   }
